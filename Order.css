@@ -1,0 +1,107 @@
+html{
+  font-size: 55%
+}
+header{
+padding: 2rem;
+}
+
+.order{
+background: peru;
+}
+
+.order.heading span{
+color: white;
+}
+
+.order.heading h3{
+color: var(--white);
+}
+
+.order form{
+padding: 3rem;
+color: white;
+box-shadow: box-shadow;
+}
+
+.order form .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.order form .box-container .box{
+  flex:1 1 4rem;
+}
+.order form .box-container .box .inputBox input,
+.order form .box-container .box .inputBox textarea{
+  width: 82%;
+  margin: 1rem 0;
+  padding: 1.2rem 1.2rem;
+  font-size: 1.2rem;
+  color: white;
+  border: border;
+  text-transform: none;
+}
+
+.order form .box-container .box .inputBox input::placeholder,
+.order form .box-container .box .inputBox textarea::placeholder{
+  text-transform: capitalize;
+}
+
+.order form .box-container .box .inputBox input:focus,
+.order form .box-container .box .inputBox textarea:focus{
+  background: black;
+  color: blue;
+}
+
+.order form .box-container .box .inputBox input:focus::placeholder,
+.order form .box-container .box .inputBox textarea:focus::placeholder{
+  color: white;
+}
+
+.order form .box-container .box .inputBox textarea{
+  height: 20rem;
+  resize: none;
+}
+
+.order form .box-container .box .inputBox .map{
+  height: 20rem;
+  width: 70%;
+  margin: 1rem 0;
+  padding: .5rem 0;
+
+}
+
+.order form .box-container .box .inputBox span{
+  color: white;
+  font-size: 2rem;
+}
+*{
+  font-family: 'Nunito', sans-serif;
+  margin: 5; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .5s linear;
+}
+
+html{
+  font-size: 95%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body{
+  background-image:url(Images/drinks.jpg);
+  background-image: no-repeat;
+}
+
+header .navbar a{
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: #666;
+}
+
+@media(max-width:991px){

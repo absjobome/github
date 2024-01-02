@@ -1,0 +1,142 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+  .html{
+    font-size: 55%
+  }
+
+.section{
+  padding: 5rem;
+}
+.details{
+  padding: 20px 10px;
+  direction: grid;
+  grid-template-rows: auto 1fr 50px;
+  grid-row-gap: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #grey;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+header .navbar a{
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  color: black;
+}
+@media(max-width:991px){
+
+
+
+  .btn:hover{
+    letter-spacing: .2rem;
+  }
+
+  *{
+    font-family: 'Nunito', sans-serif;
+    margin: 5; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+  }
+
+  html{
+    font-size: 95%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+
+  body{
+    background-image: no-repeat;
+  }
+
+  header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem 7%;
+    box-shadow: 0 .5rem 1rem rgba(1, 0, 0,.1);
+  }
+
+  header .navbar a{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: black;
+  }
+  @media(max-width:991px){
+
+    .html{
+      font-size: 55%
+    }
+    .header{
+    padding: 2rem;
+  }
+
+  .section{
+    padding: 5rem;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .testimonials{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: "monstserrat",sans-serif;
+  }
+
+  }
+  .inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  .border{
+    width: 160px;
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+  }

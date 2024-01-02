@@ -1,0 +1,216 @@
+
+.h1 {
+	 position: relative;
+	top: 15px;
+	left: 150px;hb
+}
+span{
+  font-size: 60px;
+  font-family: "Times new Roman",Times,serif;
+}
+h1{
+  color: blue;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Times new Roman",Times,serif;
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin: 5; padding: 0;
+  box-sizing: border-box;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .5s linear;
+}
+  .html{
+    font-size: 55%
+  }
+  .header{
+  padding: 2rem;
+}
+
+.section{
+  padding: 5rem;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: lightgreen;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.home{
+  padding: 0;
+}
+
+.home .slide{
+  min-height: 100vh;
+  background-size: cover !important;
+  background position: center !important;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .slide::before{
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
+  background: var(--dark-bg);
+  z-index: -1;
+}
+
+.home .slide .content{
+  text-align: center;
+  width: 70rem;
+}
+
+.home .slide .content span{
+  font-size: 3rem;
+  display: block;
+  padding-bottom: .5rem;
+  color: black;
+}
+
+.home .slide .content h3{
+  font-size: 8vh;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 0.5rem 1rem rgba(0 0, 0, 0.7);
+  line-height: 1;
+  padding: 2rem 0;
+}
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  background: var(--peru);
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
+.btn:hover{
+  letter-spacing: .2rem;
+}
+
+section{
+  padding: 2rem 9%;
+}
+
+section:nth-child(even){
+  background: #eee;
+}
+
+ .btn{
+   margin-top: 1rem;
+   display: inline-block;
+   font-size: 1.7rem;
+   color: #fff;
+   background: black;
+   border-radius: .5rem;
+   cursor: pointer;
+   padding: .8rem 3em;
+}
+ .btn:hover{
+   background: green;
+   letter-spacing: .1em;
+ }
+
+.home .home-slider .slide{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 9rem;
+}
+
+.home .home-slider .slide .content{
+  flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .image{
+  flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .image img{
+  width: 50%;
+}
+
+.home .home-slider .slide .content span{
+  color: red;
+  font-size: 2.5rem;
+}
+
+.review .slide{
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: .1rem solid rgb(0, 0, 0, .2);
+  border-radius: .5rem;
+  position: relative;
+}
+.review .slide .user{
+  display: flex;
+  gap:1.5rem;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review .slide .user h3{
+  color: black;
+  font-size: 2rem;
+  padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+  font-size: 1.3rem;
+  color: green;
+}
+
+.review .slide p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: lightblue;
+}
